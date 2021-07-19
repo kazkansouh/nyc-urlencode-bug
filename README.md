@@ -1,4 +1,4 @@
-# `nyc` bug report for url unsafe chars in filename
+# `nyc` [bug report][1] for url unsafe chars in filename
 
 This is a minimal working example to demonstrate that `nyc` is not
 correctly processing files that contain unsafe characters in the
@@ -24,3 +24,5 @@ File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
 All files |       0 |        0 |       0 |       0 |                   
 ----------|---------|----------|---------|---------|-------------------
 ```
+
+[1]: https://github.com/istanbuljs/nyc/issues/1419
