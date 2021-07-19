@@ -1,0 +1,19 @@
+{
+  "name": "nyc-urlencode-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/{id}.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nyc": "^15.1.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {}
+}
